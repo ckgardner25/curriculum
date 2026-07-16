@@ -31,6 +31,7 @@ There are also lead-free solder which is beginning to be accepted into electroni
 <img width="500" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Tin-The-tip.jpg" />
 
 
+
 <img width="500" height="350" alt="image_of_fan" src="" />
 
 
@@ -39,6 +40,7 @@ There are also lead-free solder which is beginning to be accepted into electroni
 - https://www.build-electronic-circuits.com/right-soldering-temperature/
 - https://neurochrome.com/pages/choosing-solder
 - https://www.howtogeek.com/63630/how-to-use-a-soldering-iron-a-beginners-guide/
+- https://thetech.com.vn/en/how-to-tin-a-soldering-iron-and-important-considerations/
 
 # Image Credits
 - https://www.amazon.com/MAIYUM-63-37-Solder-Electrical-Soldering/dp/B075WB98FJ
