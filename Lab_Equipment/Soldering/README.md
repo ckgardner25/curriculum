@@ -9,7 +9,9 @@ The primary solder type we will be using is 63/37 and 60/40 both with a rosin co
 There are also lead-free solder which is beginning to be accepted into electronic community however require higher soldering iron tempeture (700-800 degrees Farenheit)
 
 ## How to Solder
-1. setup your station
+1. Turn on soldering filter fan
+<img width="500" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Fan_Image.jpg" />
+2. 
 
 # Sources
 - https://www.sciencedirect.com/topics/engineering/soldering
