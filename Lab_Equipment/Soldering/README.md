@@ -13,11 +13,18 @@ There are also lead-free solder which is beginning to be accepted into electroni
 ## How to Solder
 1. Turn on soldering filter fan and make sure working area is clean
 <img width="500" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Fan_Image.jpg" />
-2. Begin heating the soldering iron between 660-750 degrees by turning on the station and adjusting tempeture until the either analog or digital display reflect the desired tempeture.  Below on the right is a digital system however, many industry-standard tools are analog dials. Then lightly wet the sponge on your soldering station and lightly wipe the tip against the sponge to remove excess solder (left image below).
+
+2. <p>Begin heating the soldering iron between 660-750 degrees by turning on the station and adjusting tempeture until the either analog or digital display reflect the desired tempeture.  Below in the middle is a digital system however, many industry-standard tools are analog dials.
+
+<b>High-Temperature Sponge Available (Left)</b> Then lightly wet the sponge on your soldering station and lightly wipe the tip against the sponge to remove excess solder (left image below).
+<br>
+<b>No High-Temperature Sponge (Right)</b> If you do not have a sponge grab a brass sponge pictured on the right and gently rub the tip in the material. </p>
+
 
 <p float="left">
 <img width="250" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/station.jpg" />
 <img width="310" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/station2.png" />
+<img width="250" height="250" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Brass_Tip_cleaner.jpeg" />
 </p>
 
 3. Carefully add a small amount of flux to the entire surface of the tip until a shiny metalic surface coats the tip of the iron. Do not solder above the red line.
@@ -36,5 +43,5 @@ There are also lead-free solder which is beginning to be accepted into electroni
 # Image Credits
 - https://www.amazon.com/MAIYUM-63-37-Solder-Electrical-Soldering/dp/B075WB98FJ
 - https://www.uline.com/Product/Detail/H-10799/Anti-Static-Equipment/Weller-Soldering-Station
-- 
+- https://thetech.com.vn/en/how-to-tin-a-soldering-iron-and-important-considerations/
 - 
