@@ -1,5 +1,19 @@
 # Soldering Overview
-Soldering is the process of melting a metal flux to connect metal surfaces in our case for electrical connection. The soldering iron is heated between 660-750 degrees Farenheit to melt the flexible solder--or more accurately--flux wire into a liquid that will blind to metal joints. As it cools it becomes a hard metallic surface that should appear shiny chrome if heated enough that will conduct electricity efficiently. Through this guide we will explore different types of solder, how to solder, soldering joints, and prepping a soldering iron.
+Author: Christopher Gardner, B.E.E. <br> <br>
+Soldering is the process of melting a metal flux to connect metal surfaces in our case for electrical connection. The soldering iron is heated between 660-750 degrees Farenheit to melt the flexible solder--or more accurately--flux wire into a liquid that will blind to metal joints. As it cools it becomes a hard metallic surface that should appear shiny chrome if heated enough that will conduct electricity efficiently. Through this guide we will explore mounting types, different types of solder, prepping a soldering iron, how to solder, and how to fix mistakes done while soldering.
+
+## Mounting Types
+1. THT: Through Hole Technology is the easiest type to solder. Its easily idenfiable by its 'legs' and holes in the corrosponding circuit. Below is a image of THT.
+
+
+<img width="200" height="250" alt="tht component" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/THT.png" />
+
+
+2. SMD/SMT: Surface Mounted Technology is advance and requires much experience, if necessary ask a instructor for assistance.  These are easily idenfiable by exposed copper pads on the circuit as shown below.
+
+
+<img width="200" height="250" alt="smd component" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/SMD.png" />
+
 
 ## Solder 
 **Health Hazard: NEVER PUT SOLDER WIRE IN YOUR MOUTH, ALWAYS WASH YOUR HANDS AFTER USE, USE IN WELL VENTILATED AREAS**. 
@@ -30,10 +44,27 @@ There are also lead-free solder which is beginning to be accepted into electroni
 3. Carefully add a small amount of flux to the entire surface of the tip until a shiny metalic surface coats the tip of the iron. Do not solder above the red line.
 <img width="500" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Tin-The-tip.jpg" />
 
+4. **For THT Components:** For through hole components place the component through the drill hole you'd like to connect it to, then put soldering iron at a 40 degree angle against the exposed copper pad and part to heat it, begin to introduce slowly solder flux.  Remember to touch the solder directly between the tip of the iron and the exposed pad; DO NOT put the solder directly on the iron and pour 'droplets' onto their pads. Follow image below for reference. After melting the solder cut the remaining metal leg that extends past the joint.
+<img width="500" height="350" alt="THT soldering technique" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/SMT-Through-Hole-Soldering.jpg" />
 
+5. Clean up all components, turn off the fan, turn off the iron. Remember the iron can remain super-heated for upwards of an hour after turning off.
 
-<img width="500" height="350" alt="image_of_fan" src="" />
+## Fixing Mistakes
+As a quick note, mistakes are completely normal and a part of learning engineering; by learning why and how we can prevent future ones is the way we grow even when they're embarrassing, remember to ask a instructor how you made the mistake and what can be done to fix it. We will cover a few types of mistakes you might come across such as needed to remove a soldered component, solder not flowing correctly, melting a component.
 
+### Removal of Soldered Components
+**Option 1**
+1. Follow the guide to soldering into step 4, now instead of using more solder we will be using a piece of ribbon called 'solder wick' pictured below.
+<img width="200" height="200" alt="THT soldering technique" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/wick.jpg" />
+
+3. grab a reel of solder wick and cut a 1-2cm chunk off. Then with a pair of tweezers place it against the solder youd like to remove. Then just place the hot iron on top of the solder wick and watch it be asorbed, remember to move it around and coat the entire wick with the tin.
+<img width="250" height="350" alt="how to use solder wick" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/removing-a-PCB-component-with-desoldering-braid.jpg" />
+
+**Option 2**
+1. Follow the guide to soldering into step 4, instead of adding solder we will use a tool called a 'solder sucker' pictured below.
+<img width="250" height="200" alt="Solder Sucker" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/sucker.jpg" />
+
+2. Push the plunger into the sucker, heat the solder and press the tip of the solder sucker against the flux you'd like to remove and press the button on the side to shoot the plunger out.
 
 # Sources
 - https://www.sciencedirect.com/topics/engineering/soldering
@@ -46,4 +77,9 @@ There are also lead-free solder which is beginning to be accepted into electroni
 - https://www.amazon.com/MAIYUM-63-37-Solder-Electrical-Soldering/dp/B075WB98FJ
 - https://www.uline.com/Product/Detail/H-10799/Anti-Static-Equipment/Weller-Soldering-Station
 - https://thetech.com.vn/en/how-to-tin-a-soldering-iron-and-important-considerations/
-- 
+- https://www.circuitspecialists.com/blog/how-to-soldering-correctly-soldering-101/?srsltid=AfmBOopAhyQ9JFZft0Ff-lzdVq88q2N0cT3qhtOXnXnwIsB2AZea18Sq
+- https://mgchemicals.com/knowledgebase/what-is-solder-wick/
+- https://www.amazon.com/Lesnow-No-Clean-Desoldering-Removal-Dispenser/dp/B094GZ6CPZ
+- https://www.amazon.com/ENGINEER-Engineer-Solder-Suction-SS-03/dp/B0D7Q293KV
+
+<img width="500" height="350" alt="Formatting Tool, i forget this.." src="" />
