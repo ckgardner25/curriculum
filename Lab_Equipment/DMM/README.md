@@ -5,5 +5,5 @@ One of the most important tools electrical engineers is the multimeter (DMM).  T
 
 ## A Basic Guide
 
-<img width="200" height="250" alt="tht component" src="" />
+<img width="200" height="250" alt="DMM example" src="/images/DMM.jpg" />
 
