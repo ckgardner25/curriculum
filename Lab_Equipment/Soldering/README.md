@@ -5,7 +5,6 @@ Soldering is the process of melting a solder to connect metal surfaces in our ca
 ## Mounting Types
 1. THT: Through Hole Technology is the easiest type to solder. Its easily idenfiable by its 'legs' and holes in the corrosponding circuit. Below is a image of THT.
 
-![ScreenShot](Images/THT.png)
 <img width="200" height="250" alt="tht component" src="Images/THT.png" />
 
 
