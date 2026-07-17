@@ -66,6 +66,9 @@ As a quick note, mistakes are completely normal and a part of learning engineeri
 
 2. Push the plunger into the sucker, heat the solder and press the tip of the solder sucker against the flux you'd like to remove and press the button on the side to shoot the plunger out.
 
+### Solder Not Flowing Correctly
+1. If the solder is not flowing correctly, test if the solder looks non-shiny try turning down the heat, or call a instructor for troubleshooting
+
 # Sources
 - https://www.sciencedirect.com/topics/engineering/soldering
 - https://www.build-electronic-circuits.com/right-soldering-temperature/
