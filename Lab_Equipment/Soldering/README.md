@@ -1,6 +1,6 @@
 # Soldering Overview
 Author: Christopher Gardner, B.E.E. Candidate <br> <br>
-Soldering is the process of melting a metal flux to connect metal surfaces in our case for electrical connection. The soldering iron is heated between 660-750 degrees Farenheit to melt the flexible solder--or more accurately--flux wire into a liquid that will blind to metal joints. As it cools it becomes a hard metallic surface that should appear shiny chrome if heated enough that will conduct electricity efficiently. Through this guide we will explore mounting types, different types of solder, prepping a soldering iron, how to solder, and how to fix mistakes done while soldering.
+Soldering is the process of melting a solder to connect metal surfaces in our case for electrical connection. The soldering iron is heated between 660-750 degrees Farenheit to melt the flexible solder wire into a liquid that will blind to metal joints. As it cools it becomes a hard metallic surface that should appear shiny chrome if heated enough that will conduct electricity efficiently. Through this guide we will explore mounting types, different types of solder, prepping a soldering iron, how to solder, and how to fix mistakes done while soldering.
 
 ## Mounting Types
 1. THT: Through Hole Technology is the easiest type to solder. Its easily idenfiable by its 'legs' and holes in the corrosponding circuit. Below is a image of THT.
@@ -18,9 +18,9 @@ Soldering is the process of melting a metal flux to connect metal surfaces in ou
 ## Solder 
 **Health Hazard: NEVER PUT SOLDER WIRE IN YOUR MOUTH, ALWAYS WASH YOUR HANDS AFTER USE, USE IN WELL VENTILATED AREAS**. 
 
-The primary solder type we will be using is 63/37 and 60/40 both with a rosin core.  The ratios on the type tell the amount of tin / lead, lead and rosin being used due to its exceptional flow onto electrical components. Another thing to consider while soldering is diameter of wire, some common diameters include 0.5mm for SMD (Surface Mount Tech), 0.8 for THT (Through Hole Tech). 
+The primary solder type we will be using is 63/37 and 60/40, both with a rosin core.  The ratios on the type tell the amount of tin / lead; lead and rosin being used due to its exceptional flow onto electrical components. Another thing to consider while soldering is diameter of wire, some common diameters include 0.5mm for SMD (Surface Mount Tech), 0.8 for THT (Through Hole Tech). 
 
-There are also lead-free solder which is beginning to be accepted into electronic community however require higher soldering iron tempeture (700-800 degrees Farenheit)
+There are also lead-free solder although it can be more difficult for beginners, requiring higher soldering iron tempeture (700-800 degrees Farenheit)
 
 <img width="250" height="250" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/solder.jpg" />
 
@@ -28,11 +28,11 @@ There are also lead-free solder which is beginning to be accepted into electroni
 1. Turn on soldering filter fan and make sure working area is clean
 <img width="500" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Fan_Image.jpg" />
 
-2. <p>Begin heating the soldering iron between 660-750 degrees by turning on the station and adjusting tempeture until the either analog or digital display reflect the desired tempeture.  Below in the middle is a digital system however, many industry-standard tools are analog dials.
+2. <p>Begin heating the soldering iron between 660-750 degrees by turning on the station and adjusting tempeture until the either analog or digital display reflect the desired tempeture.  Below in the middle is a digital system however, many industry-standard tools are analog dials. Always put your iron back in its holder, NEVER ON THE DESK.
 
-<b>High-Temperature Sponge Available (Left)</b> Then lightly wet the sponge on your soldering station and lightly wipe the tip against the sponge to remove excess solder (left image below).
-<br>
-<b>No High-Temperature Sponge (Right)</b> If you do not have a sponge grab a brass sponge pictured on the right and gently rub the tip in the material. </p>
+  <b>High-Temperature Sponge Available (Left)</b> Then lightly wet the sponge on your soldering station and lightly wipe the tip against the sponge to remove excess solder (left image below).
+  <br>
+  <b>No High-Temperature Sponge (Right)</b> If you do not have a sponge grab a brass sponge pictured on the right and gently rub the tip in the material. </p>
 
 
 <p float="left">
@@ -41,10 +41,10 @@ There are also lead-free solder which is beginning to be accepted into electroni
 <img width="250" height="250" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Brass_Tip_cleaner.jpeg" />
 </p>
 
-3. Carefully add a small amount of flux to the entire surface of the tip until a shiny metalic surface coats the tip of the iron. Do not solder above the red line.
+3. Carefully add a small amount of solder to the entire surface of the tip until a shiny metalic surface coats the tip of the iron. Do not solder above the red line.
 <img width="500" height="350" alt="image_of_fan" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/Tin-The-tip.jpg" />
 
-4. **For THT Components:** For through hole components place the component through the drill hole you'd like to connect it to, then put soldering iron at a 40 degree angle against the exposed copper pad and part to heat it, begin to introduce slowly solder flux.  Remember to touch the solder directly between the tip of the iron and the exposed pad; DO NOT put the solder directly on the iron and pour 'droplets' onto their pads. Follow image below for reference. After melting the solder cut the remaining metal leg that extends past the joint.
+4. **For THT Components:** For through hole components place the component through the drill hole you'd like to connect it to, then put soldering iron at a 40 degree angle against the exposed copper pad and part to heat it, begin to introduce slowly solder solder.  Remember to touch the solder directly between the tip of the iron and the exposed pad; DO NOT put the solder directly on the iron and pour 'droplets' onto their pads. Follow image below for reference. After melting the solder cut the remaining metal leg that extends past the joint.
 <img width="500" height="350" alt="THT soldering technique" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/SMT-Through-Hole-Soldering.jpg" />
 
 5. Clean up all components, turn off the fan, turn off the iron. Remember the iron can remain super-heated for upwards of an hour after turning off.
@@ -64,7 +64,7 @@ As a quick note, mistakes are completely normal and a part of learning engineeri
 1. Follow the guide to soldering into step 4, instead of adding solder we will use a tool called a 'solder sucker' pictured below.
 <img width="250" height="200" alt="Solder Sucker" src="https://github.com/ckgardner25/curriculum/blob/ckgardner25-solder/Lab_Equipment/Soldering/Images/sucker.jpg" />
 
-2. Push the plunger into the sucker, heat the solder and press the tip of the solder sucker against the flux you'd like to remove and press the button on the side to shoot the plunger out.
+2. Push the plunger into the sucker, heat the solder and press the tip of the solder sucker against the solder you'd like to remove and press the button on the side to shoot the plunger out.
 
 ### Solder Not Flowing Correctly
 1. If the solder is not flowing correctly, test if the solder looks non-shiny try turning down the heat, or call a instructor for troubleshooting
