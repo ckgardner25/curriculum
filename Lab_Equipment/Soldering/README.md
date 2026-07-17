@@ -84,5 +84,3 @@ As a quick note, mistakes are completely normal and a part of learning engineeri
 - https://mgchemicals.com/knowledgebase/what-is-solder-wick/
 - https://www.amazon.com/Lesnow-No-Clean-Desoldering-Removal-Dispenser/dp/B094GZ6CPZ
 - https://www.amazon.com/ENGINEER-Engineer-Solder-Suction-SS-03/dp/B0D7Q293KV
-
-<img width="500" height="350" alt="Formatting Tool, i forget this.." src="" />
