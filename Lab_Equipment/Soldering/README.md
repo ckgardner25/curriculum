@@ -1,5 +1,5 @@
 # Soldering Overview
-Author: Christopher Gardner, B.E.E. Candidate <br> <br>
+Prepared by Christopher Gardner, B.E.E. Candidate (Expected 2028) <br> <br>
 Soldering is the process of melting a solder to connect metal surfaces in our case for electrical connection. The soldering iron is heated between 660-750 degrees Farenheit to melt the flexible solder wire into a liquid that will blind to metal joints. As it cools it becomes a hard metallic surface that should appear shiny chrome if heated enough that will conduct electricity efficiently. Through this guide we will explore mounting types, different types of solder, prepping a soldering iron, how to solder, and how to fix mistakes done while soldering.
 
 ## Mounting Types
