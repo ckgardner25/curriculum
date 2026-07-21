@@ -28,16 +28,29 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 
 
 ## Getting your first waveform
-1. First switch on the scope (left image), connect your probe to the BNC port (whatever channel you'd like, the scope will detect whichever you use), and power on your circuit.
+1. First switch on the scope (right image), connect your probe to the BNC port (whatever channel you'd like, the scope will detect whichever you use), and power on your circuit.
 <p float="left">
-<img width="250" height="350" alt="Power Button" src="Images/power.png" />
-<img width="250" height="250" alt="Probe" src="Images/Probe_Outline.png" />
+<img width="350" height="350" alt="Probe" src="Images/Probe_Outline.png" />
+<img width="350" height="350" alt="Power Button" src="Images/power.png" />
 </p>
 
-2. 
+2. Connect the Grounding clip (above) to a common ground pin on the circuit; connect the Measuring Clip to the point you'd like to measure by pulling the retractable grey shielding back on the tip to expose the hook.
+
+3. Press the 'start/stop' button on the top right on the oscillscope, you should see a signal on the screen appear like below (the line might look different).  If not call over a instructor for troubleshooting.
+<img width="350" height="350" alt="Oscilloscope screen" src="Images/Example.png" />
+
+4. Gather data you need to by navigating the side measurement tools. Press button next to each tool for use.
 
 ## Vertical and Horizontal Controls
+### Vertical
+1. There is a section on the control pannel that says 'Vertical', these tools adjust how tall/zoom our signal looks
+<img width="350" height="350" alt="Oscilloscope screen" src="Images/Vert_contr.jpg" />
 
+2. To zero your inputs press in on the button, the dial will _scale_ our signal--till you hit the scopes limits--as desired
+
+### Horizontal
+1. There is a section on the control pannel that says 'Horizontal', these tools adjust what time and also the scale of capture we look at.
+<img width="350" height="350" alt="Oscilloscope screen" src="Images/Hor_cont.jpg" />
 
 ## Types of signals and their meanings
 
