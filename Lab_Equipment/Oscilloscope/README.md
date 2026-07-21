@@ -9,24 +9,32 @@ Oscilloscopes come in two main types: analog and digital. While analog oscillosc
 The purpose of the oscilloscope is to graph voltage over time, for accuracy of reading there are many controls that dominant the face of the machine. The tool is then designed to see frequency of a signal (how often does it repeat), if a component is causing incorrect behavior (signal isn't what we designed around), and whether the signal is DC or AC.
 <br>
 #### Terminology
+##### Note: Don't be concerned if some or even all of these defintions are difficult to understand, some are very advance topics that require studying complex analysis, advance calculus, and engineering mathematics with linear algebra to fully grasp.
+
 1. Channel: a BNC port used to connect to probes, each channel is seen as a different color in the interface. (Below)
 <img width="300" height="450" alt="BNC Port on Oscilloscope" src="Images/BNC_PORT.png" />
 
-2. Vpp:
+2. Vpp: Peak to peak voltage; what this means is we measure the voltage of a AC wave from the very bottom to the very top and find the _absolute_ value (absolute is the same as magnitude; think of it as making all parts of the number positive) of the voltage.
+<img width="300" height="450" alt="Vpp Example" src="Images/Vpp.png" />
 
+3. Frequency: The number of times a signal wave repeats within a second. For those adept in math, frequency is defined as being solved by doing _f_=1/T (T corrosponds to the period); note that this math begins to enter euler's mathematics so don't worry about understanding the math just the simplified definition.
+<img width="300" height="450" alt="Frequency graph" src="Images/Freq.jpg" />
 
-3. Frequency:
-<img width="300" height="450" alt="DMM example" src="Images/.png" />
+4. Vmax: The top peak of a signal, representing the maximum positive value a signal hits.
+<img width="300" height="450" alt="Vmax graph" src="Images/Vmax.png" />
 
-4. Vmax:
-
-
-5. Period
-
+5. Period: How long it takes for a signal to repeat its shape. For those adept in math, it is the reciprocol of the frequency calculation: T=1/_f_ (_f_ is the frequency).
+<img width="400" height="450" alt="Period graph" src="Images/period.png" />
 
 
 ## Getting your first waveform
+1. First switch on the scope (left image), connect your probe to the BNC port (whatever channel you'd like, the scope will detect whichever you use), and power on your circuit.
+<p float="left">
+<img width="250" height="350" alt="Power Button" src="Images/power.png" />
+<img width="250" height="250" alt="Probe" src="Images/Probe_Outline.png" />
+</p>
 
+2. 
 
 ## Vertical and Horizontal Controls
 
@@ -46,4 +54,8 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 
 # Image Credits
 - https://www.alibaba.com/product-detail/Siglent-The-Oscilloscope-SDS1104x-u-Features_1601418064600.html
-- 
+- https://shopdelta.eu/peak-to-peak-voltage-vpp_l2_aid796.html
+- https://www.weschler.com/blog/line-frequency-measurements/
+- http://musicweb.ucsd.edu/~trsmyth/sinusoids171/Waveform_period.html
+- https://linhkienviet.vn/may-hien-song-hantek-dso5072p-2-kenh-70mhz-digital-storage-oscilloscope
+- https://www.elexp.com/products/05spak110scope-probe-bnc-ic-sw-60mhz?srsltid=AfmBOopVTEC851GlVo0Oszrdn3fSPT5a2GyvUQqfLehnmmQq34nkxUk8
