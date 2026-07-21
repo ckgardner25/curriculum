@@ -9,7 +9,21 @@ Oscilloscopes come in two main types: analog and digital. While analog oscillosc
 The purpose of the oscilloscope is to graph voltage over time, for accuracy of reading there are many controls that dominant the face of the machine. The tool is then designed to see frequency of a signal (how often does it repeat), if a component is causing incorrect behavior (signal isn't what we designed around), and whether the signal is DC or AC.
 <br>
 #### Terminology
-1. 
+1. Channel: a BNC port used to connect to probes, each channel is seen as a different color in the interface. (Below)
+<img width="300" height="450" alt="BNC Port on Oscilloscope" src="Images/BNC_PORT.png" />
+
+2. Vpp:
+
+
+3. Frequency:
+<img width="300" height="450" alt="DMM example" src="Images/.png" />
+
+4. Vmax:
+
+
+5. Period
+
+
 
 ## Getting your first waveform
 
@@ -19,6 +33,7 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 
 ## Types of signals and their meanings
 
+<img width="400" height="450" alt="UI of oscilloscope" src="Images/screenshot.png" />
 
 ## Basics of Triggering
 
@@ -30,4 +45,5 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 - https://www.tek.com/en/documents/primer/oscilloscope-basics
 
 # Image Credits
+- https://www.alibaba.com/product-detail/Siglent-The-Oscilloscope-SDS1104x-u-Features_1601418064600.html
 - 
