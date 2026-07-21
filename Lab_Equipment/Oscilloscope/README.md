@@ -4,12 +4,15 @@ One of the most important tools used by electrical and computer engineers is the
 
 Oscilloscopes come in two main types: analog and digital. While analog oscilloscopes are still used in some specialized applications, digital oscilloscopes are the standard in most classrooms, laboratories, and industry because they can store measurements and act as advance calculators. Since our laboratory uses digital oscilloscopes, this guide will focus entirely on their operation.
 
+## Safety
+1. Always place a ground clip to circuit ground.
+2. Ask instructor before placing probe connections if you're unsure.
 
 ## Basics
 The purpose of the oscilloscope is to graph voltage over time, for accuracy of reading there are many controls that dominant the face of the machine. The tool is then designed to see frequency of a signal (how often does it repeat), if a component is causing incorrect behavior (signal isn't what we designed around), and whether the signal is DC or AC.
 <br>
 #### Terminology
-##### Note: Don't be concerned if some or even all of these defintions are difficult to understand, some are very advance topics that require studying complex analysis, advance calculus, and engineering mathematics with linear algebra to fully grasp.
+##### Note: Don't be concerned if some or even all of these definitions are difficult to understand, some are very advance topics that require studying complex analysis, advance calculus, and engineering mathematics with linear algebra to fully grasp.
 
 1. Channel: a BNC port used to connect to probes, each channel is seen as a different color in the interface. (Below)
 <img width="300" height="450" alt="BNC Port on Oscilloscope" src="Images/BNC_PORT.png" />
@@ -17,13 +20,13 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 2. Vpp: Peak to peak voltage; what this means is we measure the voltage of a AC wave from the very bottom to the very top and find the _absolute_ value (absolute is the same as magnitude; think of it as making all parts of the number positive) of the voltage.
 <img width="300" height="450" alt="Vpp Example" src="Images/Vpp.png" />
 
-3. Frequency: The number of times a signal wave repeats within a second. For those adept in math, frequency is defined as being solved by doing _f_=1/T (T corrosponds to the period); note that this math begins to enter euler's mathematics so don't worry about understanding the math just the simplified definition.
+3. Frequency: Frequency tells us how many times a signal repeats every second. It is measured in hertz (Hz). For those adept in math, frequency is defined as being solved by doing _f_=1/T (T corresponds to the period); note that this math begins to enter euler's mathematics so don't worry about understanding the math just the simplified definition.
 <img width="300" height="450" alt="Frequency graph" src="Images/Freq.jpg" />
 
 4. Vmax: The top peak of a signal, representing the maximum positive value a signal hits.
 <img width="300" height="450" alt="Vmax graph" src="Images/Vmax.png" />
 
-5. Period: How long it takes for a signal to repeat its shape. For those adept in math, it is the reciprocol of the frequency calculation: T=1/_f_ (_f_ is the frequency).
+5. Period: How long it takes for a signal to repeat its shape. For those adept in math, it is the reciprocal of the frequency calculation: T=1/_f_ (_f_ is the frequency).
 <img width="400" height="450" alt="Period graph" src="Images/period.png" />
 
 
@@ -43,21 +46,40 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 
 ## Vertical and Horizontal Controls
 ### Vertical
-1. There is a section on the control pannel that says 'Vertical', these tools adjust how tall/zoom our signal looks
+1. There is a section on the control pannel that says 'Vertical', increasing the scale makes the waveform appear smaller, while decreasing it makes the waveform appear larger.
 <img width="350" height="350" alt="Oscilloscope screen" src="Images/Vert_contr.jpg" />
 
 2. To zero your inputs press in on the button, the dial will _scale_ our signal--till you hit the scopes limits--as desired
 
 ### Horizontal
-1. There is a section on the control pannel that says 'Horizontal', these tools adjust what time and also the scale of capture we look at.
+1. There is a section on the control pannel that says 'Horizontal', these tools adjust the zoom and also the scale of capture we look at.
 <img width="350" height="350" alt="Oscilloscope screen" src="Images/Hor_cont.jpg" />
 
-## Types of signals and their meanings
+2. To zero your inputs press in on the button, the dial will _scale_ our signal--till you hit the scopes limits--as desired
 
+## Types of signals and their meanings
+We have many types of signals that are used for different purposes such as power, communication, and other uses. To understand each signal we have we must remember the structure of voltage over time used in the oscillscope. <br>
 <img width="400" height="450" alt="UI of oscilloscope" src="Images/screenshot.png" />
 
-## Basics of Triggering
+**1. Noise:** Noise is unwanted electrical signals that are added to the waveform. It can come from nearby electronics, power lines, radio signals, or the circuit itself.
+<br>**Fun Fact:** This is what TV static is seen on the right (if your old enough to know what that is)
+<br><p float="left">
+<img width="400" height="450" alt="UI of oscilloscope" src="Images/Noise.png" />
+<img width="400" height="450" alt="UI of oscilloscope" src="Images/static.png" />
+</p>
 
+**2. Square Wave:** A common wave used for communication and testing of equipment.
+<br><br><img width="400" height="450" alt="UI of oscilloscope" src="Images/square_wave.png" />
+
+**3. Sine Wave:** A sine wave is one of the most common waveforms you'll encounter. Household AC power is a sine wave.
+<br><br><img width="400" height="450" alt="UI of oscilloscope" src="Images/sine_wave.png" />
+
+**4. Sawtooth Wave:** Used in automobiles and control systems. This wave is not commonly used.
+<br><br><img width="400" height="450" alt="UI of oscilloscope" src="Images/sawtooth_wave.png" />
+
+
+## Basics of Triggering
+Triggering tells the oscilloscope when to begin drawing the waveform. A good trigger makes the waveform appear steady instead of moving across the screen.
 
 
 
@@ -72,3 +94,6 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 - http://musicweb.ucsd.edu/~trsmyth/sinusoids171/Waveform_period.html
 - https://linhkienviet.vn/may-hien-song-hantek-dso5072p-2-kenh-70mhz-digital-storage-oscilloscope
 - https://www.elexp.com/products/05spak110scope-probe-bnc-ic-sw-60mhz?srsltid=AfmBOopVTEC851GlVo0Oszrdn3fSPT5a2GyvUQqfLehnmmQq34nkxUk8
+- https://en.wikipedia.org/wiki/White_noise
+- https://www.electronics-tutorials.ws/accircuits/sine-wave.html
+- https://www.geeksforgeeks.org/python/plotting-a-sawtooth-wave-using-matplotlib/
