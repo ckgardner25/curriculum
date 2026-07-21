@@ -1,5 +1,5 @@
 # Digital Multimeter Overview
-Author: Christopher Gardner, B.E.E. Candidate 
+Prepared by Christopher Gardner, B.E.E. Candidate (Expected 2028)
 <br> <br>
 One of the most important tools used by electrical engineers is the multimeter (DMM).  This tool always has a voltmeter (measures voltage), ammeter (measures current), and ohmmeter (measures resistance). Some DMM's have thermal imaging, continuity tester (checks if theres a path between two probe points), diode tester (advance tool for checking whether a diode is functioning properly), and more. In this guide we will explore each tool and how to use them.
 
