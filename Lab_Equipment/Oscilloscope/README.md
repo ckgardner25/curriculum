@@ -2,17 +2,17 @@
 <br> Prepared by Christopher Gardner, B.E.E. Candidate (Expected 2028) <br> <br>
 One of the most important tools used by electrical and computer engineers is the oscilloscope. An oscilloscope measures voltage over time, allowing us to see electrical signals that would otherwise be impossible to observe. Digital oscilloscopes can also perform measurements like frequency (how often a signal repeats) and voltage calculations. This guide will cover the basic operation of a oscilloscope and how to use it to make simple measurements. Advanced topics such as sampling rate, bandwidth, input impedance, and transient analysis are NOT covered in this guide.
 
-Oscilloscopes come in two main types: analog and digital. While analog oscilloscopes are still used in some specialized applications, digital oscilloscopes are the standard in most classrooms, laboratories, and industry because they can store measurements and act as advance calculators. Since our laboratory uses digital oscilloscopes, this guide will focus entirely on their operation.
+Oscilloscopes come in two main types: analog and digital. While analog oscilloscopes are still used in some specialized applications, digital oscilloscopes are the standard in most classrooms, laboratories, and industry because they can store measurements and act as advanced calculators. Since our laboratory uses digital oscilloscopes, this guide will focus entirely on their operation.
 
 ## Safety
-1. Always place a ground clip to circuit ground.
+1. Always connect the probe's ground clip to the circuit ground before taking measurements.
 2. Ask instructor before placing probe connections if you're unsure.
 
 ## Basics
-The purpose of the oscilloscope is to graph voltage over time, for accuracy of reading there are many controls that dominant the face of the machine. The tool is then designed to see frequency of a signal (how often does it repeat), if a component is causing incorrect behavior (signal isn't what we designed around), and whether the signal is DC or AC.
+The purpose of the oscilloscope is to display voltage as it changes over time, for accuracy of reading there are many controls that dominant the face of the machine. The tool is then designed to see frequency of a signal (how often does it repeat), if a component is causing incorrect behavior (signal isn't what we designed around), and whether the signal is DC or AC.
 <br>
 #### Terminology
-##### Note: Don't be concerned if some or even all of these definitions are difficult to understand, some are very advance topics that require studying complex analysis, advance calculus, and engineering mathematics with linear algebra to fully grasp.
+##### Note: Some of these ideas become much more important in college-level engineering. For now, focus on the basic definitions rather than the mathematics behind them.
 
 1. Channel: a BNC port used to connect to probes, each channel is seen as a different color in the interface. (Below)
 <img width="300" height="450" alt="BNC Port on Oscilloscope" src="Images/BNC_PORT.png" />
@@ -20,13 +20,13 @@ The purpose of the oscilloscope is to graph voltage over time, for accuracy of r
 2. Vpp: Peak to peak voltage; what this means is we measure the voltage of a AC wave from the very bottom to the very top and find the _absolute_ value (absolute is the same as magnitude; think of it as making all parts of the number positive) of the voltage.
 <img width="300" height="450" alt="Vpp Example" src="Images/Vpp.png" />
 
-3. Frequency: Frequency tells us how many times a signal repeats every second. It is measured in hertz (Hz). For those adept in math, frequency is defined as being solved by doing _f_=1/T (T corresponds to the period); note that this math begins to enter euler's mathematics so don't worry about understanding the math just the simplified definition.
+3. Frequency: Frequency tells us how many times a signal repeats every second. It is measured in hertz (Hz). For those adept in math, frequency is defined as being solved by doing <br>_f_=1/T<br> (T corresponds to the period); note that this math begins to enter euler's mathematics so don't worry about understanding the math just the simplified definition.
 <img width="300" height="450" alt="Frequency graph" src="Images/Freq.jpg" />
 
 4. Vmax: The top peak of a signal, representing the maximum positive value a signal hits.
 <img width="300" height="450" alt="Vmax graph" src="Images/Vmax.png" />
 
-5. Period: How long it takes for a signal to repeat its shape. For those adept in math, it is the reciprocal of the frequency calculation: T=1/_f_ (_f_ is the frequency).
+5. Period: How long it takes for a signal to repeat its shape. For those adept in math, it is the reciprocal of the frequency calculation:<br> T=1/_f_ <br>(_f_ is the frequency).
 <img width="400" height="450" alt="Period graph" src="Images/period.png" />
 
 
