@@ -12,7 +12,7 @@ Soldering is the process of melting a solder to connect metal surfaces in our ca
 
 <p float="left">
 <img width="200" height="250" alt="smd component" src="Images/SMD.png" />
-<img width="200" height="250" alt="smd component" src="Images/SMD2.png" />
+<img width="250" height="250" alt="smd component" src="Images/SMD2.png" />
 </p>
 
 ## Solder 
