@@ -27,5 +27,18 @@ They can adjust the _frequency_ (how often the signal repeats). This is used if 
 
 The generator is able to send a single 'pulse' or a repetitive wave that will repeat for a set amount of time.
 
+A more advance function that you should not change without help of a instructor is the _phase angle_ which adjusts what part of the wave the signal starts on.
+
+## How to connect a generator to your circuit?
+To connect to your circuit you likely use either a _BNC Connector_ (left image) or less likely a _banana connector_ (right image). 
+<br><p float="left">
+<img width="400" height="450" alt="UI of oscilloscope" src="../Oscilloscope/Images/BNC_PORT.png" />
+<img width="400" height="450" alt="UI of oscilloscope" src="Images/banana.png" />
+</p>
+
+
 ## Sources
 - https://en.wikipedia.org/wiki/Function_generator (reference)
+
+## Image Credits
+- https://www.amazon.com/Connector-Multimeter-Generators-Automobiles-Regulators/dp/B09ST46XD9
