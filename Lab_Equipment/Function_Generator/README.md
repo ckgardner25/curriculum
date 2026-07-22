@@ -12,7 +12,7 @@ Firstly, they can create different types of signals such as the following:
 <img width="400" height="450" alt="UI of oscilloscope" src="../Oscilloscope/Images/static.png" />
 </p>
 
-**2. Square Wave:** A common wave used for communication and testing of equipment.
+**2. Square Wave:** A square wave switches quickly between a high voltage and a low voltage. It is commonly used for testing digital circuits, clocks, and communication systems.
 <br><br><img width="400" height="450" alt="UI of oscilloscope" src="../Oscilloscope/Images/square_wave.png" />
 
 **3. Sine Wave:** A sine wave is one of the most common waveforms you'll encounter. Household AC power is a sine wave.
@@ -21,13 +21,13 @@ Firstly, they can create different types of signals such as the following:
 **4. Sawtooth Wave:** Used in automobiles and control systems. This wave is not commonly used.
 <br><br><img width="400" height="450" alt="UI of oscilloscope" src="../Oscilloscope/Images/sawtooth_wave.png" />
 
-They also can adjust the _amplitude_ (height/voltage) which is useful to make sure you don't send too much or too little voltage into a circuit.
+They also can adjust the _amplitude_ (the height of the wave, which represents voltage) which is useful to make sure you don't send too much or too little voltage into a circuit.
 
-They can adjust the _frequency_ (how often the signal repeats). This is used if your circuit is for radio operations.
+They can adjust the _frequency_ (how often the signal repeats). Frequency controls how many times the wave repeats every second. Different circuits require different frequencies, such as audio circuits, digital electronics, and radio systems.
 
 The generator is able to send a single 'pulse' or a repetitive wave that will repeat for a set amount of time.
 
-A more advance function that you should not change without help of a instructor is the _phase angle_ which adjusts what part of the wave the signal starts on.
+A more advance function that you should not change without help from an instructor is the _phase angle_ which adjusts what part of the wave the signal starts on.
 
 ## How to connect a generator to your circuit?
 To connect to your circuit you likely use either a _BNC Connector_ (left image) or less likely a _banana connector_ (right image). 
@@ -36,11 +36,11 @@ To connect to your circuit you likely use either a _BNC Connector_ (left image) 
 <img width="200" height="250" alt="UI of oscilloscope" src="Images/banana.jpg" />
 </p>
 
-Then attach your probe to the appropriate test point. Please ask a instructor on where to place, wrong placement can cause fires or cause capacitors to explode.
+Then attach your probe to the appropriate test point. Incorrect connections can damage equipment and, in some cases, cause components such as capacitors to fail violently. If you are unsure where to connect the probe, ask your instructor.
 
 <img width="350" height="350" alt="Probe" src="Images/probe.jpg" />
 
-Then select the waveform and cofiguration you'd like on the channel you are using (Channels 1 or 2).
+Then select the waveform and cofiguration you'd like on the channel (port connecting to the genreator) you are using (Channels 1 or 2).
 
 ## Sources
 - https://en.wikipedia.org/wiki/Function_generator (reference)
