@@ -2,6 +2,9 @@
 Prepared by Christopher Gardner, B.E.E. Candidate (Expected 2028) <br> <br>
 Soldering is the process of melting a solder to connect metal surfaces in our case for electrical connection. The soldering iron is heated between 660-750 degrees Farenheit to melt the flexible solder wire into a liquid that will blind to metal joints. As it cools it becomes a hard metallic surface that should appear shiny chrome if heated enough that will conduct electricity efficiently. Through this guide we will explore mounting types, different types of solder, prepping a soldering iron, how to solder, and how to fix mistakes done while soldering.
 
+## Safety
+Make sure to wear eye protection. The soldering iron is over 700 degrees hot NEVER touch metal parts of it, if you have immediately let a instructor know. Wash your hands thoroughly after touching solder.
+
 ## Mounting Types
 1. THT: Through Hole Technology is the easiest type to solder. Its easily idenfiable by its 'legs' and holes in the corrosponding circuit. Below is a image of THT.
 
@@ -69,6 +72,20 @@ As a quick note, mistakes are completely normal and a part of learning engineeri
 ### Solder Not Flowing Correctly
 1. If the solder is not flowing correctly, test if the solder looks non-shiny try turning down the heat, or call a instructor for troubleshooting
 
+## Solder Joints
+1. Good joint
+<img width="250" height="200" alt="Solder good" src="Images/Good_sol.png" />
+
+2. Cold joint
+<img width="250" height="200" alt="Solder cold" src="Images/cold_sol.png" />
+
+3. Too Much Solder
+<img width="250" height="200" alt="Solder too much" src="Images/Too_much.jpg" />
+
+4. Too Little Solder
+<img width="250" height="200" alt="no solder" src="Images/Too_lil.jpg" />
+
+
 # Sources
 - https://www.sciencedirect.com/topics/engineering/soldering
 - https://www.build-electronic-circuits.com/right-soldering-temperature/
@@ -84,3 +101,5 @@ As a quick note, mistakes are completely normal and a part of learning engineeri
 - https://mgchemicals.com/knowledgebase/what-is-solder-wick/
 - https://www.amazon.com/Lesnow-No-Clean-Desoldering-Removal-Dispenser/dp/B094GZ6CPZ
 - https://www.amazon.com/ENGINEER-Engineer-Solder-Suction-SS-03/dp/B0D7Q293KV
+- https://www.shutterstock.com/image-photo/soldering-points-on-lcd-tv-motheboard-1639985542?trackingId=db875698-a773-44d2-ad1b-31f859ee2a3c&listId=searchResults
+- https://hakko.com.sg/blogs/tune-in-with-hakko/common-soldering-problems-too-much-solder?srsltid=AfmBOopG0Snc9EoZGmvGOG-9xtsD43Vy0etA0RQbLV0QfZrM_eyUrMhV
