@@ -33,9 +33,14 @@ A more advance function that you should not change without help of a instructor 
 To connect to your circuit you likely use either a _BNC Connector_ (left image) or less likely a _banana connector_ (right image). 
 <br><p float="left">
 <img width="400" height="450" alt="UI of oscilloscope" src="../Oscilloscope/Images/BNC_PORT.png" />
-<img width="400" height="450" alt="UI of oscilloscope" src="Images/banana.png" />
+<img width="200" height="250" alt="UI of oscilloscope" src="Images/banana.jpg" />
 </p>
 
+Then attach your probe to the appropriate test point. Please ask a instructor on where to place, wrong placement can cause fires or cause capacitors to explode.
+
+<img width="350" height="350" alt="Probe" src="Images/probe.jpg" />
+
+Then select the waveform and cofiguration you'd like on the channel you are using (Channels 1 or 2).
 
 ## Sources
 - https://en.wikipedia.org/wiki/Function_generator (reference)
