@@ -74,7 +74,7 @@ As a quick note, mistakes are completely normal and a part of learning engineeri
 
 ## Solder Joints
 1. Good joint
-<img width="250" height="200" alt="Solder good" src="Images/good_sol.png" />
+<img width="250" height="200" alt="Solder good" src="Images/Good_sol.png" />
 
 2. Cold joint
 <img width="250" height="200" alt="Solder cold" src="Images/cold_sol.png" />
@@ -83,7 +83,7 @@ As a quick note, mistakes are completely normal and a part of learning engineeri
 <img width="250" height="200" alt="Solder too much" src="Images/Too_much.jpg" />
 
 4. Too Little Solder
-<img width="250" height="200" alt="no solder" src="Images/too_lil.jpg" />
+<img width="250" height="200" alt="no solder" src="Images/Too_lil.jpg" />
 
 
 # Sources
