@@ -10,9 +10,10 @@ Soldering is the process of melting a solder to connect metal surfaces in our ca
 
 2. SMD/SMT: Surface Mounted Technology is advance and requires much experience, if necessary ask a instructor for assistance.  These are easily idenfiable by exposed copper pads on the circuit as shown below.
 
-
+<p float="left">
 <img width="200" height="250" alt="smd component" src="Images/SMD.png" />
-
+<img width="250" height="250" alt="smd component" src="Images/SMD2.png" />
+</p>
 
 ## Solder 
 **Health Hazard: NEVER PUT SOLDER WIRE IN YOUR MOUTH, ALWAYS WASH YOUR HANDS AFTER USE, USE IN WELL VENTILATED AREAS**. 
