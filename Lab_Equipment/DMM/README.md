@@ -46,6 +46,7 @@ Below is an example digital multimeter.  Followed by a list of each function tha
 
 
 ### Sources
+- https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all
 - ChatGPT (editing), "review this guide for highschoolers guide to a DMM"
 
 ### Image Sources
