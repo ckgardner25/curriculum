@@ -40,9 +40,9 @@ Below is an example digital multimeter.  Followed by a list of each function tha
 <img width="600" height="450" alt="DMM example" src="Images/current_meas.png" />
 
 ## Probe Connections
-1. COM- The COM port must always be connected to with our black probe.
-2. A/mA/uA- Put the red probe into this port when measuring ONLY current.
-3. V/Ω- Plug the red probe into this port when measuring resistance, continuity, diode tester, and voltage.
+1. COM: The COM port must always be connected to with our black probe.
+2. A/mA/uA: Put the red probe into this port when measuring ONLY current.
+3. V/Ω: Plug the red probe into this port when measuring resistance, continuity, diode tester, and voltage.
 
 
 ### Sources
