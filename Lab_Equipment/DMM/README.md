@@ -1,40 +1,40 @@
 # Digital Multimeter Overview
 Prepared by Christopher Gardner, B.E.E. Candidate (Expected 2028)
 <br> <br>
-One of the most important tools used by electrical engineers is the multimeter (DMM).  This tool always has a voltmeter (measures voltage), ammeter (measures current), and ohmmeter (measures resistance). Some DMM's have thermal imaging, continuity tester (checks if theres a path between two probe points), diode tester (advance tool for checking whether a diode is functioning properly), and more. In this guide we will explore each tool and how to use them.
+One of the most important tools used by electrical engineers is the multimeter (DMM).  This tool has a voltmeter (measures voltage), ammeter (measures current), and ohmmeter (measures resistance). Some DMM's have thermal imaging, continuity tester (checks if theres a path between two probe points), diode tester (advance tool for checking whether a diode is functioning properly), and more. In this guide we will explore each tool and how to use them.
 
 ## Safety Note
-Measuring current MUST be done correctly by putting the meter in-series with the circuit. If unsure AT ALL or even if a instructor is free, ask them before turning on the circuit.
+Measuring current MUST be done correctly by putting the meter in-series with the circuit. If unsure, AT ALL or even if an instructor is free, ask them before turning on the circuit.
 
 ## Quick Summary of Voltage, Current, and Resistance
-To understand how to use a DMM, it helps to understand the three basic electrical quantities: voltage, current, and resistance.  For our purposes we will do a light summary with the analogy with water pipes; think of electricity like water flowing through pipes. Voltage is like water pressure, current is the amount of water flowing, and resistance is a restriction (such as a narrow pipe) that limits the flow.
+To understand how to use a DMM, it helps to break-down the three basic electrical quantities: voltage, current, and resistance.  For our purposes, we will do a light summary of electricity by using the analogy of water pipes. Think of electricity like water flowing through pipes. Voltage is like water pressure, current is the amount of water flowing, and resistance is a restriction (such as a narrow pipe) that limits the flow.
 
 ## Note
 An OL (Over Limit or Overload) reading means the measured value is outside the meter's current range or cannot be measured. For example, in resistance mode it often indicates an open circuit (infinite resistance), while in manual-ranging mode it may mean you need to select a higher measurement range.
 
 ## A Basic Layout
-Below is a example digital multimeter. Notice that each position on the dial has a different symbol which corresponds to a different function. Below is a list of each function thats commonly found on each DMM.
+Below is an example digital multimeter.  Followed by a list of each function that's commonly found on each DMM. Notice that each position on the dial has a different symbol which corresponds to a specific function.
 <br> <br>
 <img width="200" height="350" alt="DMM example" src="Images/DMM.jpg" />
 <br> 
 #### 1. AC Voltmeter: This function measures alternating current (AC) voltage, like the voltage from a household electrical outlet. Most beginner circuits run entirely on DC. Make sure the red probe is in the V jack.
 <img width="200" height="350" alt="DMM example" src="Images/AC_v.png" />
 
-#### 2. DC Voltmeter: DC is the simplist form of electricity, this function directly measures the voltage across two points. On the example multimeter the mV is also a DC voltmeter just for very small voltages. Make sure the red probe is in the V jack.
+#### 2. DC Voltmeter: DC is the simplist form of electricity. This function directly measures the voltage across two points. On the example multimeter the mV is also a DC voltmeter just for very small voltages. Make sure the red probe is in the V jack.
 
 <img width="200" height="350" alt="DMM example" src="Images/DC_v.png" />
 
-#### 4. Resistance Meter (Ohmmeter): Power off the circuitry and then this measures the resistance ACROSS a component or section. Make sure the red probe is in the V jack.
+#### 3. Resistance Meter (_Ohmmeter_): Power off the circuitry and then this measures the resistance ACROSS a component or section. Make sure the red probe is in the V jack.
 
 <img width="200" height="350" alt="DMM example" src="Images/ohm.png" />
 
-#### 5. Continuity: This tests if there is a electrical connectional in-between the two probe points. Make sure the red probe is in the V jack.
+#### 4. Continuity: This tests the existence of an electrical connectional in-between the two probe points. Make sure the red probe is in the V jack.
 <img width="200" height="350" alt="DMM example" src="Images/Continuity.png" />
 
-#### 6. Diode Test: To confirm a diode is functioning correctly put the two probes and confirm a OL screen, then swap and you should get a measurement. Make sure the red probe is in the V jack.
+#### 5. Diode Test: To confirm a diode is functioning correctly put the two probes and confirm a OL screen, then swap and you should get a measurement. Make sure the red probe is in the V jack.
 <img width="200" height="350" alt="DMM example" src="Images/Diode Test.png" />
 
-#### 7. Current Meter (Ammeter): To measure current we must put the probes in-series or 'break' the circuit and put the probes in places shown below.  Confirm you plug the probes into the COM and A port on the DMM.
+#### 6. Current Meter (_Ammeter_): To measure current we must put the probes in-series or 'break' the circuit and put the probes in places shown below.  Confirm you plug the probes into the COM and A port on the DMM.
 **Warning:** Never measure voltage while the red probe is plugged into the current (A or mA) jack. Doing so can create a short circuit, blow the meter's fuse, or damage the meter.
 <br> <br>
 <img width="600" height="450" alt="DMM example" src="Images/current_meas.png" />
